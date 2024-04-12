@@ -10,6 +10,7 @@ wget -O addteste.sh "https://raw.githubusercontent.com/piratassh/modulos/main/ad
 wget -O atlasremove.sh "https://raw.githubusercontent.com/piratassh/modulos/main/atlasremove.sh"
 wget -O delete.py "https://raw.githubusercontent.com/piratassh/modulos/main/delete.py"
 wget -O atlasdata.sh "https://raw.githubusercontent.com/piratassh/modulos/main/atlasdata.sh"
+wget -O port.sh "https://raw.githubusercontent.com/piratassh/modulos/main/port.sh"
 wget -O sincronizar.py "https://raw.githubusercontent.com/piratassh/modulos/main/sincronizar.py"
 chmod 777 atlascreate.sh add.sh remsinc.sh addsinc.sh rem.sh atlasteste.sh addteste.sh atlasremove.sh delete.py atlasdata.sh sincronizar.py
 apt install dos2unix
