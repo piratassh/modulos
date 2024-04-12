@@ -16,3 +16,8 @@ apt install dos2unix
 dos2unix rem.sh
 wget "https://raw.githubusercontent.com/piratassh/modulos/main/verificador.py" -O verificador.py 
 python3 verificador.py
+
+# Adicionar portas ao firewall
+sudo firewall-cmd --zone=public --permanent --add-port=8191/tcp
+sudo firewall-cmd --reload
+sudo firewall-cmd --zone=public --list-ports
