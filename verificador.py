@@ -39,7 +39,7 @@ def verifica_servidor():
     if senha:
         try:
             comando = 'echo "teste"'
-            resposta = requests.post('http://localhost:8191', headers={'Senha': senha}, data={'comando': comando})
+            resposta = requests.post('http://localhost:6969', headers={'Senha': senha}, data={'comando': comando})
             print(resposta.status_code)
             if resposta.status_code == 200:
                 print('A porta esta ativa')
